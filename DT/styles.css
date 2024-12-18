@@ -1,0 +1,94 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+/* Homepage styling */
+.home {
+    background-color: #1b262c; /* Dark background color for homepage */
+}
+
+header {
+    text-align: center;
+    background-color: #3282b8; /* Light blue for the header */
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.animal-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.animal {
+    text-align: center;
+    width: 150px;
+}
+
+.animal img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.animal img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+footer {
+    text-align: center;
+    background-color: #3282b8;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer h2, footer p {
+    margin: 5px 0;
+}
+
+/* Background colors for each animal detail page */
+
+.sperm-whale {
+    background-color: #011f4b; /* Deep ocean blue */
+}
+
+.tiger {
+    background-color: #ff6f20; /* Vibrant tiger orange */
+}
+
+.fiji-banded-iguana {
+    background-color: #3cb371; /* Jungle green */
+}
+
+.orangutan {
+    background-color: #d95d39; /* Burnt orange */
+}
+
+.african-wild-dog {
+    background-color: #8b5e3c; /* Earthy brown */
+}
+
+.asian-elephant {
+    background-color: #d3d3d3; /* Light gray */
+    color: #333; /* Darker text for readability */
+}
+
+.hawaiian-monk-seal {
+    background-color: #2e8b57; /* Sea green */
+}
+
+.blue-throated-macaw {
+    background-color: #1e90ff; /* Bright blue */
+}
